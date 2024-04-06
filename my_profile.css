@@ -3,3 +3,7 @@
     height: 720px;
     background-color: #0F1035;
 }
+
+#homeImage {
+    display: inline-block;
+}
