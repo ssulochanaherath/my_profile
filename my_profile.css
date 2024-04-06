@@ -69,9 +69,23 @@
 
 #welcome {
     color: white;
-    width: 720px;
 
     position: absolute;
     left: 10px;
     margin: auto;
+}
+
+#note {
+    color: #EFF396;
+    font-size: 25px;
+
+    position: absolute;
+    top: 780px;
+    left: 10px;
+    margin: auto;
+}
+
+#paragraph {
+    color: white;
+    font-size: ;
 }
