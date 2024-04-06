@@ -95,3 +95,13 @@
     left: 10px;
     margin: auto;
 }
+
+#languages {
+    color: white;
+    font-size: 25px;
+
+    position: absolute;
+    top: 950px;
+    left: 10px;
+    margin: auto;
+}
