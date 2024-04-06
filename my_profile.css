@@ -49,26 +49,6 @@
     margin: auto;
 }
 
-#navHome {
-    color: white;
-}
-
-#navAbout {
-    color: white;
-}
-
-#navProject {
-    color: white;
-}
-
-#navAssignment {
-    color: white;
-}
-
-#navGallery {
-    color: white;
-}
-
-#navContact {
+#navBar nav a {
     color: white;
 }
