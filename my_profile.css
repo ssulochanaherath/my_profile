@@ -87,5 +87,11 @@
 
 #paragraph {
     color: white;
-    font-size: ;
+    font-size: 20px;
+    width: 800px;
+
+    position: absolute;
+    top: 840px;
+    left: 10px;
+    margin: auto;
 }
