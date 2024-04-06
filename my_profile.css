@@ -66,3 +66,12 @@
     height: 100vh;
     background-color: #1B1A55;
 }
+
+#welcome {
+    color: white;
+    width: 720px;
+
+    position: absolute;
+    left: 10px;
+    margin: auto;
+}
