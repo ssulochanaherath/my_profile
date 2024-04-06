@@ -14,6 +14,16 @@
 
     position: absolute;
     top: 50px;
-    right: 400px;
+    right: 450px;
+    margin: auto;
+}
+
+#softwareEngineer {
+    color: #74E291;
+    font-size: 75px;
+
+    position: absolute;
+    top: 100px;
+    right: 25px;
     margin: auto;
 }
