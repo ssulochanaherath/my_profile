@@ -112,3 +112,14 @@
     left: 10px;
     margin: auto;
 }
+
+#sulochana {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 8%;
+
+    position: absolute;
+    top: 750px;
+    right: 20px;
+    margin: auto;
+}
