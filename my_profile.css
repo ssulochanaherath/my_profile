@@ -40,12 +40,35 @@
 
 #navBar {
     font-size: 25px;
+    word-spacing: 25px;
+    text-decoration-color: white;
 
     position: absolute;
-    bottom: 0;
+    left: 20px;
+    bottom: 20px;
     margin: auto;
 }
 
-#home {
+#navHome {
+    color: white;
+}
+
+#navAbout {
+    color: white;
+}
+
+#navProject {
+    color: white;
+}
+
+#navAssignment {
+    color: white;
+}
+
+#navGallery {
+    color: white;
+}
+
+#navContact {
     color: white;
 }
