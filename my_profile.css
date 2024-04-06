@@ -101,7 +101,7 @@
     font-size: 25px;
 
     position: absolute;
-    top: 950px;
+    top: 1000px;
     left: 10px;
     margin: auto;
 }
@@ -121,5 +121,16 @@
     position: absolute;
     top: 750px;
     right: 20px;
+    margin: auto;
+}
+
+#aboutMe {
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+
+    position: absolute;
+    top: 1350px;
+    right: 120px;
     margin: auto;
 }
