@@ -60,3 +60,9 @@
     font-family: cursive;
     color: white;
 }
+
+#About {
+    display: flex;
+    height: 100vh;
+    background-color: #1B1A55;
+}
