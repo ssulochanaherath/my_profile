@@ -79,9 +79,9 @@
     color: #EFF396;
     font-size: 25px;
 
-    position: absolute;
-    top: 780px;
-    left: 10px;
+    position: relative;
+    top: -38%;
+    left: -31%;
     margin: auto;
 }
 
