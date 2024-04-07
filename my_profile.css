@@ -105,6 +105,14 @@
     color: white;
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #navBar {
+        font-size: 20px;
+    }
+}
+
+/*------------------------------------------------About Section-------------------------------------------------------*/
+
 #About {
     display: flex;
     height: 100vh;
