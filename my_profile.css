@@ -187,3 +187,13 @@
     left:700px;
     margin: auto;
 }
+
+#chatName {
+    color: white;
+    font-size: 20px;
+
+    position: absolute;
+    top: 315px;
+    left: 700px;
+    margin: auto;
+}
