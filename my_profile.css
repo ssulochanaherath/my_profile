@@ -197,3 +197,13 @@
     left: 700px;
     margin: auto;
 }
+
+#teamProjects {
+    color: #15F5BA;
+    font-size: 30px;
+
+    position: absolute;
+    top: 380px;
+    left: 250px;
+    margin: auto;
+}
