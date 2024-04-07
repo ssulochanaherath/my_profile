@@ -159,14 +159,14 @@
     font-size: 30px;
 
     position: absolute;
-    top: 10px;
+    top: 0;
     left: 250px;
     margin: auto;
 }
 
 #cineMax {
     position: absolute;
-    top: 120px;
+    top: 100px;
     left: 250px;
     margin: auto;
 }
@@ -176,14 +176,14 @@
     font-size: 20px;
 
     position: absolute;
-    top: 315px;
+    top: 300px;
     left: 250px;
     margin: auto;
 }
 
 #chatApplication {
     position: absolute;
-    top: 120px;
+    top: 100px;
     left:700px;
     margin: auto;
 }
@@ -193,7 +193,7 @@
     font-size: 20px;
 
     position: absolute;
-    top: 315px;
+    top: 300px;
     left: 700px;
     margin: auto;
 }
@@ -203,7 +203,15 @@
     font-size: 30px;
 
     position: absolute;
-    top: 380px;
+    top: 355px;
     left: 250px;
     margin: auto;
 }
+
+#elephantPass {
+    position: absolute;
+    top: 455px;
+    left: 250px;
+    margin: auto;
+}
+
