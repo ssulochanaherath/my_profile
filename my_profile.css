@@ -160,18 +160,23 @@
 
     position: absolute;
     top: 10px;
-    left: 220px;
+    left: 250px;
     margin: auto;
 }
 
 #cineMax {
     position: absolute;
     top: 120px;
-    left: 220px;
+    left: 250px;
     margin: auto;
 }
 
 #cineMaxName {
     color: white;
     font-size: 20px;
+
+    position: absolute;
+    top: 315px;
+    left: 250px;
+    margin: auto;
 }
