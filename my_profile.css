@@ -153,3 +153,18 @@
     left: -250px;
     margin: auto;
 }
+
+#myProjects {
+    color: #15F5BA;
+}
+
+#projectImages {
+    position: relative;
+    top: 50%;
+}
+
+#cineMax {
+    position: relative;
+    top: -20%;
+    margin: auto;
+}
