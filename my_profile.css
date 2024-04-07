@@ -42,9 +42,9 @@
     font-size: 45px;
 
     position: absolute;
-    top: 0;
-    right: 475px;
-    margin: auto;
+    top: 12%;
+    left: 54%;
+    transform: translate(-50%, -50%);
 }
 
 /* For Laptop Large */
