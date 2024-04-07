@@ -134,3 +134,10 @@
     right: 120px;
     margin: auto;
 }
+
+#Project {
+    display: flex;
+    height: 100vh;
+    background-color: #0F1035;
+    opacity: 0.85;
+}
