@@ -13,6 +13,13 @@
 /*    }*/
 /*}*/
 
+/*For Laptop */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #Home {
+        background-color: grey;
+    }
+}
+
 #homeImage {
     display: inline-block;
     overflow: hidden;
@@ -22,19 +29,6 @@
     top: 48%;
     left: 18%;
     transform: translate(-50%, -50%);
-}
-
-/* For Laptop Large */
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    #homeImage {
-        height: 480px;
-        width: 380px;
-
-        position: absolute;
-        top: 43%;
-        left: 16%;
-        transform: translate(-50%, -50%);
-    }
 }
 
 #fullStack {
@@ -47,13 +41,6 @@
     transform: translate(-50%, -50%);
 }
 
-/* For Laptop Large */
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    #fullStack {
-        font-size: 40px;
-    }
-}
-
 #softwareEngineer {
     color: #74E291;
     font-size: 55px;
@@ -64,13 +51,6 @@
     margin: auto;
 }
 
-/* For Laptop Large */
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    #softwareEngineer {
-        font-size: 45px;
-    }
-}
-
 #sangeethSulochana {
     color: white;
     font-size: 90px;
@@ -79,14 +59,6 @@
     top: 58%;
     left: 64%;
     transform: translate(-50%, -50%);
-}
-
-/* For Laptop Large */
-
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    #sangeethSulochana {
-        font-size: 80px;
-    }
 }
 
 #navBar {
@@ -105,7 +77,65 @@
     color: white;
 }
 
+/* For Laptop Large */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #homeImage {
+        height: 480px;
+        width: 380px;
+
+        position: absolute;
+        top: 43%;
+        left: 16%;
+        transform: translate(-50%, -50%);
+    }
+
+    #fullStack {
+        font-size: 40px;
+    }
+
+    #softwareEngineer {
+        font-size: 45px;
+    }
+
+    #sangeethSulochana {
+        font-size: 80px;
+    }
+
+    #navBar {
+        font-size: 20px;
+    }
+}
+
+/* For Laptop */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #homeImage {
+        height: 400px;
+        width: 280px;
+
+        position: absolute;
+        top: 35%;
+        left: 16%;
+        transform: translate(-50%, -50%);
+    }
+
+    #fullStack {
+        font-size: 38px;
+        width: 500px;
+        top: 8%;
+        left: 70%;
+    }
+
+    #softwareEngineer {
+        font-size: 40px;
+        width: 500px;
+        left: 45%;
+    }
+
+    #sangeethSulochana {
+        font-size: 58px;
+        left: 70%;
+    }
+
     #navBar {
         font-size: 20px;
     }
