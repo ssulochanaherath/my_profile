@@ -1,17 +1,17 @@
 #Home {
-    display: flex;
+    display: revert;
     justify-content: space-between;
     height: 100vh;
     width: 100vw;
     background-color: #0F1035;
 }
 
-/*For Laptop Large*/
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    #Home {
-        background-color: grey;
-    }
-}
+/*!*For Laptop Large*!*/
+/*@media only screen and (min-width: 1025px) and (max-width: 1440px) {*/
+/*    #Home {*/
+/*        background-color: grey;*/
+/*    }*/
+/*}*/
 
 /*!*For Laptop *!*/
 /*@media only screen and (min-width: 769px) and (max-width: 1024px) {*/
@@ -19,6 +19,13 @@
 /*        background-color: grey;*/
 /*    }*/
 /*}*/
+
+/* For Tablet */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    #Home {
+        background-color: grey;
+    }
+}
 
 #homeImage {
     display: inline-block;
@@ -114,7 +121,7 @@
         width: 280px;
 
         position: absolute;
-        top: 35%;
+        top: 40%;
         left: 16%;
         transform: translate(-50%, -50%);
     }
@@ -123,7 +130,7 @@
         font-size: 35px;
         width: 500px;
         top: 8%;
-        left: 70%;
+        left: 65%;
     }
 
     #softwareEngineer {
@@ -135,11 +142,11 @@
 
     #sangeethSulochana {
         font-size: 50px;
-        left: 65%;
+        left: 62%;
     }
 
     #navBar {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
