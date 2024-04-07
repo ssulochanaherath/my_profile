@@ -158,15 +158,20 @@
     color: #15F5BA;
     font-size: 30px;
 
-    position: relative;
-    top: -40%;
-    left: 10%;
+    position: absolute;
+    top: 10px;
+    left: 220px;
     margin: auto;
 }
 
 #cineMax {
-    position: relative;
-    top: -20%;
-    left: -13%;
+    position: absolute;
+    top: 120px;
+    left: 220px;
     margin: auto;
+}
+
+#cineMaxName {
+    color: white;
+    font-size: 20px;
 }
