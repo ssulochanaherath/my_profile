@@ -2,8 +2,16 @@
     display: flex;
     justify-content: space-between;
     height: 100vh;
+    width: 100vw;
     background-color: #0F1035;
 }
+
+/* For Laptop Large */
+/*@media only screen and (min-width: 1025px) and (max-width: 1440px) {*/
+/*    #Home {*/
+/*        background-color: grey;*/
+/*    }*/
+/*}*/
 
 #homeImage {
     display: inline-block;
@@ -11,9 +19,22 @@
     border-radius: 8%;
 
     position: absolute;
-    top: 10px;
-    left: 10px;
-    margin: auto;
+    top: 45%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+/* For Laptop Large */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #homeImage {
+        height: 500px;
+        width: 400px;
+
+        position: absolute;
+        top: 40%;
+        left: 17%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 #fullStack {
@@ -26,6 +47,13 @@
     margin: auto;
 }
 
+/* For Laptop Large */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #fullStack {
+        font-size: 40px;
+    }
+}
+
 #softwareEngineer {
     color: #74E291;
     font-size: 55px;
@@ -36,14 +64,28 @@
     margin: auto;
 }
 
+/* For Laptop Large */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #softwareEngineer {
+        font-size: 45px;
+    }
+}
+
 #sangeethSulochana {
     color: white;
     font-size: 90px;
 
     position: absolute;
-    top: 80px;
-    left: 550px;
-    margin: auto;
+    top: 55%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+}
+
+/* For Laptop Large */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #sangeethSulochana {
+        font-size: 80px;
+    }
 }
 
 #navBar {
@@ -62,12 +104,10 @@
     color: white;
 }
 
-/*Media Queries*/
-
-
 #About {
     display: flex;
     height: 100vh;
+    width: 100vw;
     background-color: #1B1A55;
 }
 
@@ -142,6 +182,7 @@
 #Project {
     display: flex;
     height: 100vh;
+    width: 100vw;
     background-color: #0F1035;
     opacity: 0.85;
     position: relative;
