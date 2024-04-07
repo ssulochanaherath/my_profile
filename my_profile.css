@@ -79,9 +79,9 @@
     color: #EFF396;
     font-size: 25px;
 
-    position: absolute;
-    top: 20px;
-    left: 10px;
+    position: relative;
+    top: -38%;
+    left: -31%;
     margin: auto;
 }
 
@@ -156,6 +156,12 @@
 
 #myProjects {
     color: #15F5BA;
+    font-size: 30px;
+
+    position: relative;
+    top: -40%;
+    left: 10%;
+    margin: auto;
 }
 
 #projectImages {
