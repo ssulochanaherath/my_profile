@@ -215,3 +215,12 @@
     margin: auto;
 }
 
+#projectName {
+    color: white;
+    font-size: 20px;
+
+    position: absolute;
+    top: 655px;
+    left: 250px;
+    margin: auto;
+}
