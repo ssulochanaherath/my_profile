@@ -164,13 +164,9 @@
     margin: auto;
 }
 
-#projectImages {
-    position: relative;
-    top: 50%;
-}
-
 #cineMax {
     position: relative;
     top: -20%;
+    left: -13%;
     margin: auto;
 }
