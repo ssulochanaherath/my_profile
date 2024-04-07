@@ -59,8 +59,8 @@
     font-size: 55px;
 
     position: absolute;
-    top: 50px;
-    right: 25px;
+    top: 10%;
+    left: 45%;
     margin: auto;
 }
 
@@ -76,7 +76,7 @@
     font-size: 90px;
 
     position: absolute;
-    top: 55%;
+    top: 58%;
     left: 64%;
     transform: translate(-50%, -50%);
 }
