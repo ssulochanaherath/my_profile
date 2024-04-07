@@ -180,3 +180,10 @@
     left: 250px;
     margin: auto;
 }
+
+#chatApplication {
+    position: absolute;
+    top: 120px;
+    left:700px;
+    margin: auto;
+}
