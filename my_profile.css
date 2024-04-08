@@ -432,7 +432,7 @@
 
 #javaScript {
     height: 200px;
-    width: 200px;
+    width: 300px;
 }
 
 #sulochana {
@@ -487,8 +487,23 @@
     }
 
     #java {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
+    }
+
+    #html {
+        height: 150px;
+        width: 150px;
+    }
+
+    #css {
+        height: 150px;
+        width: 150px;
+    }
+
+    #javaScript {
+        height: 150px;
+        width: 350px;
     }
 }
 
