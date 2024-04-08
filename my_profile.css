@@ -20,8 +20,15 @@
 /*    }*/
 /*}*/
 
-/* For Tablet */
-@media only screen and (min-width: 426px) and (max-width: 768px) {
+/*!* For Tablet *!*/
+/*@media only screen and (min-width: 426px) and (max-width: 768px) {*/
+/*    #Home {*/
+/*        background-color: grey;*/
+/*    }*/
+/*}*/
+
+/* For Mobile Large */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
     #Home {
         background-color: grey;
     }
@@ -159,6 +166,43 @@
         position: absolute;
         top: 42%;
         left: 56%;
+        transform: translate(-50%, -50%);
+    }
+
+    #fullStack {
+        font-size: 30px;
+        width: 500px;
+        top: 6%;
+        left: 60%;
+    }
+
+    #softwareEngineer {
+        font-size: 35px;
+        width: 480px;
+        top: 5%;
+        left: 10%;
+    }
+
+    #sangeethSulochana {
+        font-size: 40px;
+        top: 75%;
+        left: 45%;
+    }
+
+    #navBar {
+        font-size: 14px;
+    }
+}
+
+/* For Mobile Large */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    #homeImage {
+        height: 300px;
+        width: 300px;
+
+        position: absolute;
+        top: 42%;
+        left: 50%;
         transform: translate(-50%, -50%);
     }
 
