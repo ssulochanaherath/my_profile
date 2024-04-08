@@ -150,6 +150,42 @@
     }
 }
 
+/* For Tablet */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    #homeImage {
+        height: 300px;
+        width: 250px;
+
+        position: absolute;
+        top: 40%;
+        left: 56%;
+        transform: translate(-50%, -50%);
+    }
+
+    #fullStack {
+        font-size: 35px;
+        width: 500px;
+        top: 8%;
+        left: 65%;
+    }
+
+    #softwareEngineer {
+        font-size: 38px;
+        width: 480px;
+        top: 8%;
+        left: 42%;
+    }
+
+    #sangeethSulochana {
+        font-size: 50px;
+        left: 62%;
+    }
+
+    #navBar {
+        font-size: 15px;
+    }
+}
+
 /*------------------------------------------------About Section-------------------------------------------------------*/
 
 #About {
