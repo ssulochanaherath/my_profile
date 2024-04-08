@@ -28,7 +28,14 @@
 /*}*/
 
 /* For Mobile Large */
-@media only screen and (min-width: 376px) and (max-width: 425px) {
+/*@media only screen and (min-width: 376px) and (max-width: 425px) {*/
+/*    #Home {*/
+/*        background-color: grey;*/
+/*    }*/
+/*}*/
+
+/* For Mobile Medium */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
     #Home {
         background-color: grey;
     }
@@ -227,7 +234,44 @@
     }
 
     #navBar {
-        font-size: 14px;
+        font-size: 10px;
+    }
+}
+
+/* For Mobile Medium */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    #homeImage {
+        height: 400px;
+        width: 300px;
+
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #fullStack {
+        font-size: 25px;
+        width: 500px;
+        top: 6%;
+        left: 68%;
+    }
+
+    #softwareEngineer {
+        font-size: 30px;
+        width: 480px;
+        top: 5%;
+        left: 7%;
+    }
+
+    #sangeethSulochana {
+        font-size: 38px;
+        top: 78%;
+        left: 48%;
+    }
+
+    #navBar {
+        font-size: 10px;
     }
 }
 
