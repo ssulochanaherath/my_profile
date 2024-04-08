@@ -420,6 +420,11 @@
     width: 200px;
 }
 
+#html {
+    height: 200px;
+    width: 200px;
+}
+
 #sulochana {
     display: inline-block;
     overflow: hidden;
@@ -468,9 +473,12 @@
     }
 
     #languagesImages {
-        width: 200px;
+        top: 1120px;
+    }
 
-        top: 1140px;
+    #java {
+        height: 100px;
+        width: 100px;
     }
 }
 
