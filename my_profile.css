@@ -320,6 +320,47 @@
 }
 
 /*------------------------------------------------About Section-------------------------------------------------------*/
+/*!*For Laptop Large*!*/
+/*@media only screen and (min-width: 1025px) and (max-width: 1440px) {*/
+/*    #About {*/
+/*        background-color: grey;*/
+/*    }*/
+/*}*/
+
+/*!*For Laptop *!*/
+/*@media only screen and (min-width: 769px) and (max-width: 1024px) {*/
+/*    #Home {*/
+/*        background-color: grey;*/
+/*    }*/
+/*}*/
+
+/*!* For Tablet *!*/
+/*@media only screen and (min-width: 426px) and (max-width: 768px) {*/
+/*    #Home {*/
+/*        background-color: grey;*/
+/*    }*/
+/*}*/
+
+/* For Mobile Large */
+/*@media only screen and (min-width: 376px) and (max-width: 425px) {*/
+/*    #Home {*/
+/*        background-color: grey;*/
+/*    }*/
+/*}*/
+
+/*!* For Mobile Medium *!*/
+/*@media only screen and (min-width: 321px) and (max-width: 375px) {*/
+/*    #Home {*/
+/*        background-color: grey;*/
+/*    }*/
+/*}*/
+
+/* For Mobile Small */
+/*@media only screen and (max-width: 320px) {*/
+/*    #Home {*/
+/*        background-color: grey;*/
+/*    }*/
+/*}*/
 
 #About {
     display: flex;
@@ -396,6 +437,18 @@
     margin: auto;
 }
 
+/*For Laptop Large*/
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #About {
+        background-color: grey;
+    }
+
+    #welcome {
+        font-size: 15px;
+    }
+}
+
+/*-------------------------------------------------Project Section--------------------------------------------------------*/
 #Project {
     display: flex;
     height: 100vh;
