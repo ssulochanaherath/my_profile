@@ -157,7 +157,7 @@
         width: 250px;
 
         position: absolute;
-        top: 40%;
+        top: 42%;
         left: 56%;
         transform: translate(-50%, -50%);
     }
@@ -177,8 +177,9 @@
     }
 
     #sangeethSulochana {
-        font-size: 50px;
-        left: 62%;
+        font-size: 40px;
+        top: 75%;
+        left: 45%;
     }
 
     #navBar {
