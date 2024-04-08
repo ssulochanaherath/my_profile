@@ -415,6 +415,11 @@
     margin: auto;
 }
 
+#java {
+    height: 200px;
+    width: 200px;
+}
+
 #sulochana {
     display: inline-block;
     overflow: hidden;
@@ -460,6 +465,12 @@
     #languages {
         font-size: 25px;
         top: 1020px;
+    }
+
+    #languagesImages {
+        width: 200px;
+
+        top: 1140px;
     }
 }
 
