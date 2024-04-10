@@ -471,10 +471,6 @@
 
 /*For Laptop Large*/
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    #About {
-        background-color: grey;
-    }
-
     #welcome {
         font-size: 15px;
         left: 1%;
@@ -525,8 +521,55 @@
 
 /*For Laptop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    #Home {
+    #About {
         background-color: grey;
+    }
+
+    #welcome {
+        font-size: 12px;
+        left: 1%;
+    }
+
+    #note {
+        font-size: 20px;
+        left: -28%;
+    }
+
+    #paragraph {
+        width: 450px;
+    }
+
+    #languages {
+        font-size: 25px;
+        top: 1020px;
+    }
+
+    #languagesImages {
+        top: 1120px;
+    }
+
+    #java {
+        height: 150px;
+        width: 150px;
+    }
+
+    #html {
+        height: 150px;
+        width: 150px;
+    }
+
+    #css {
+        height: 150px;
+        width: 150px;
+    }
+
+    #javaScript {
+        position: absolute;
+        left: 90%;
+        margin: auto;
+
+        height: 150px;
+        width: 280px;
     }
 }
 
