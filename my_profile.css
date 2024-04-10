@@ -525,6 +525,14 @@
         background-color: grey;
     }
 
+    #sulochana {
+        height: 450px;
+        width: 400px;
+
+        position: relative;
+        top: 5%;
+    }
+
     #welcome {
         font-size: 12px;
         left: 1%;
@@ -532,7 +540,7 @@
 
     #note {
         font-size: 18px;
-        left: -25%;
+        left: -26%;
     }
 
     #paragraph {
