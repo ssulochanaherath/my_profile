@@ -514,8 +514,12 @@
     }
 
     #javaScript {
+        position: absolute;
+        left: 90%;
+        margin: auto;
+
         height: 150px;
-        width: 350px;
+        width: 280px;
     }
 }
 
