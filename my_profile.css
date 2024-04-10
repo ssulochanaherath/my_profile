@@ -526,8 +526,8 @@
     }
 
     #sulochana {
-        height: 450px;
-        width: 400px;
+        height: 400px;
+        width: 350px;
 
         position: relative;
         top: 5%;
@@ -540,12 +540,17 @@
 
     #note {
         font-size: 18px;
-        left: -26%;
+
+        position: absolute;
     }
 
     #paragraph {
         font-size: 20px;
         width: 400px;
+
+        position: relative;
+        top: -15%;
+        left: -4%;
     }
 
     #languages {
