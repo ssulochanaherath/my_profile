@@ -394,8 +394,8 @@
     font-size: 25px;
 
     position: relative;
-    top: -38%;
-    left: -31%;
+    top: -37%;
+    left: -10%;
     margin: auto;
 }
 
@@ -539,9 +539,11 @@
     }
 
     #note {
-        font-size: 18px;
+        font-size: 15px;
+        width: 1000px;
 
-        position: absolute;
+        top: -40%;
+        left: 4%;
     }
 
     #paragraph {
@@ -549,7 +551,7 @@
         width: 400px;
 
         position: relative;
-        top: -15%;
+        top: 0%;
         left: -4%;
     }
 
