@@ -385,7 +385,7 @@
     color: white;
 
     position: absolute;
-    left: 1%;
+    left: 10px;
     margin: auto;
 }
 
@@ -394,8 +394,8 @@
     font-size: 25px;
 
     position: relative;
-    top: -37%;
-    left: -10%;
+    top: -38%;
+    left: -31%;
     margin: auto;
 }
 
@@ -427,26 +427,6 @@
     margin: auto;
 }
 
-#java {
-    height: 200px;
-    width: 200px;
-}
-
-#html {
-    height: 200px;
-    width: 200px;
-}
-
-#css {
-    height: 200px;
-    width: 200px;
-}
-
-#javaScript {
-    height: 200px;
-    width: 300px;
-}
-
 #sulochana {
     display: inline-block;
     overflow: hidden;
@@ -467,6 +447,26 @@
     top: 1350px;
     right: 120px;
     margin: auto;
+}
+
+#java {
+    height: 200px;
+    width: 200px;
+}
+
+#html {
+    height: 200px;
+    width: 200px;
+}
+
+#css {
+    height: 200px;
+    width: 200px;
+}
+
+#javaScript {
+    height: 200px;
+    width: 350px;
 }
 
 /*For Laptop Large*/
@@ -519,75 +519,75 @@
     }
 }
 
-/*For Laptop */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    #About {
-        background-color: grey;
-    }
+/*!*For Laptop *!*/
+/*@media only screen and (min-width: 769px) and (max-width: 1024px) {*/
+/*    #About {*/
+/*        background-color: grey;*/
+/*    }*/
 
-    #sulochana {
-        height: 400px;
-        width: 350px;
+/*    #sulochana {*/
+/*        height: 400px;*/
+/*        width: 350px;*/
 
-        position: relative;
-        top: 5%;
-    }
+/*        position: relative;*/
+/*        top: 5%;*/
+/*    }*/
 
-    #welcome {
-        font-size: 12px;
-        left: 1%;
-    }
+/*    #welcome {*/
+/*        font-size: 12px;*/
+/*        left: 1%;*/
+/*    }*/
 
-    #note {
-        font-size: 15px;
-        width: 1000px;
+/*    #note {*/
+/*        font-size: 15px;*/
+/*        width: 1200px;*/
 
-        top: -40%;
-        left: 4%;
-    }
+/*        top: -40%;*/
+/*        left: 4%;*/
+/*    }*/
 
-    #paragraph {
-        font-size: 20px;
-        width: 400px;
+/*    #paragraph {*/
+/*        font-size: 16px;*/
+/*        width: 1500px;*/
 
-        position: relative;
-        top: 0%;
-        left: -4%;
-    }
+/*        position: relative;*/
+/*        top: -10%;*/
+/*        left: -25%;*/
+/*    }*/
 
-    #languages {
-        font-size: 20px;
-        top: 1020px;
-    }
+/*    #languages {*/
+/*        font-size: 20px;*/
+/*        top: 1020px;*/
+/*    }*/
 
-    #languagesImages {
-        top: 1120px;
-    }
+/*    #languagesImages {*/
+/*        top: 1120px;*/
+/*    }*/
 
-    #java {
-        height: 150px;
-        width: 150px;
-    }
+/*    #java {*/
+/*        height: 150px;*/
+/*        width: 150px;*/
+/*    }*/
 
-    #html {
-        height: 150px;
-        width: 150px;
-    }
+/*    #html {*/
+/*        height: 150px;*/
+/*        width: 150px;*/
+/*    }*/
 
-    #css {
-        height: 150px;
-        width: 150px;
-    }
+/*    #css {*/
+/*        height: 150px;*/
+/*        width: 150px;*/
+/*    }*/
 
-    #javaScript {
-        position: absolute;
-        left: 90%;
-        margin: auto;
+/*    #javaScript {*/
+/*        position: absolute;*/
+/*        left: 90%;*/
+/*        margin: auto;*/
 
-        height: 150px;
-        width: 280px;
-    }
-}
+/*        height: 150px;*/
+/*        width: 280px;*/
+/*    }*/
+/*}*/
 
 /*-------------------------------------------------Project Section--------------------------------------------------------*/
 #Project {
