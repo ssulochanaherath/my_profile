@@ -544,7 +544,8 @@
     }
 
     #paragraph {
-        width: 450px;
+        font-size: 20px;
+        width: 400px;
     }
 
     #languages {
