@@ -467,6 +467,97 @@
     right: 13%;
 }
 
+/*For Laptop Large*/
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #About {
+        background-color: grey;
+    }
+
+    #welcome {
+        width: 700px;
+        color: white;
+        font-size: 25px;
+
+        position: absolute;
+        top: 0%;
+        left: 1%;
+    }
+
+    #note {
+        color: #EFF396;
+        font-size: 25px;
+
+        position: absolute;
+        top: 12%;
+        left: 2%;
+    }
+
+    #paragraph {
+        color: white;
+        font-size: 25px;
+        width: 1000px;
+
+        position: absolute;
+        top: 20%;
+        left: 2%;
+    }
+
+    #languages{
+        color: white;
+        font-size: 25px;
+
+        position: absolute;
+        top: 45%;
+        left: 2%;
+    }
+
+    #languagesImages {
+        position: absolute;
+        top: 60%;
+        left: 5%;
+    }
+
+    #java {
+        height: 200px;
+        width: 200px;
+    }
+
+    #html {
+        height: 200px;
+        width: 200px;
+    }
+
+    #css {
+        height: 200px;
+        width: 200px;
+    }
+
+    #javaScript {
+        height: 200px;
+        width: 350px;
+    }
+
+    #sulochana {
+        height: 800px;
+        width: 700px;
+        border-radius: 10%;
+
+        position: absolute;
+        top: 5%;
+        right: 4%;
+    }
+
+    #aboutMe {
+        color: white;
+        font-size: 20px;
+        font-family: "JetBrains Mono Light";
+
+        position: absolute;
+        top: 92%;
+        right: 13%;
+    }
+}
+
 /*-------------------------------------------------Project Section--------------------------------------------------------*/
 #Project {
     display: flex;
