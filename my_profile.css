@@ -390,7 +390,7 @@
 
     position: absolute;
     top: 0%;
-    left: 0%;
+    left: 1%;
 }
 
 #note {
@@ -399,7 +399,7 @@
 
     position: absolute;
     top: 12%;
-    left: 1%;
+    left: 2%;
 }
 
 #paragraph {
@@ -409,11 +409,16 @@
 
     position: absolute;
     top: 20%;
-    left: 1%;
+    left: 2%;
 }
 
 #languages{
+    color: white;
+    font-size: 25px;
 
+    position: absolute;
+    top: 40%;
+    left: 2%;
 }
 
 #languagesImages {
