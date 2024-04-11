@@ -398,12 +398,18 @@
     font-size: 25px;
 
     position: absolute;
-    top: 10%;
+    top: 12%;
     left: 1%;
 }
 
 #paragraph {
+    color: white;
+    font-size: 25px;
+    width: 1000px;
 
+    position: absolute;
+    top: 20%;
+    left: 1%;
 }
 
 #languages{
