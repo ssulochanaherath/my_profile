@@ -667,11 +667,11 @@
 
     #paragraph {
         color: white;
-        font-size: 20px;
-        width: 400px;
+        font-size: 15px;
+        width: 600px;
 
         position: absolute;
-        top: 14%;
+        top: 52%;
         left: 2%;
     }
 
@@ -714,13 +714,13 @@
     }
 
     #sulochana {
-        height: 200px;
-        width: 100px;
+        height: 350px;
+        width: 280px;
         border-radius: 10%;
 
         position: absolute;
-        top: 4%;
-        right: 4%;
+        top: 12%;
+        right: 28%;
     }
 
     #aboutMe {
