@@ -459,11 +459,12 @@
 
 #aboutMe {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: "JetBrains Mono Light";
 
     position: absolute;
-    top: 85%;
-    right: 10%;
+    top: 92%;
+    right: 13%;
 }
 
 /*-------------------------------------------------Project Section--------------------------------------------------------*/
