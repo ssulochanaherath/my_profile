@@ -556,10 +556,6 @@
 
 /*For Laptop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    #About {
-        background-color: grey;
-    }
-
     #welcome {
         width: 700px;
         color: white;
@@ -594,13 +590,13 @@
         font-size: 20px;
 
         position: absolute;
-        top: 40%;
+        top: 45%;
         left: 2%;
     }
 
     #languagesImages {
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 0%;
     }
 
@@ -643,7 +639,7 @@
         font-family: "JetBrains Mono Light";
 
         position: absolute;
-        top: 65%;
+        top: 85%;
         right: 10%;
     }
 }
