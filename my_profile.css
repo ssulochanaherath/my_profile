@@ -622,6 +622,10 @@
     #javaScript {
         height: 150px;
         width: 300px;
+
+        position: absolute;
+        top: 110%;
+        left: -10%;
     }
 
     #sulochana {
