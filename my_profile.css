@@ -916,10 +916,6 @@
 
 /*For Mobile Small */
 @media only screen and (max-width: 320px) {
-    #About {
-        background-color: grey;
-    }
-
     #welcome {
         width: 700px;
         color: white;
