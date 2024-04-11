@@ -581,11 +581,11 @@
 
     #paragraph {
         color: white;
-        font-size: 23px;
-        width: 650px;
+        font-size: 20px;
+        width: 400px;
 
         position: absolute;
-        top: 20%;
+        top: 14%;
         left: 2%;
     }
 
