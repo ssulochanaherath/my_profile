@@ -644,6 +644,96 @@
     }
 }
 
+/* For Tablet */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    #welcome {
+        width: 700px;
+        color: white;
+        font-size: 18px;
+
+        position: absolute;
+        top: 0%;
+        left: 1%;
+    }
+
+    #note {
+        color: #EFF396;
+        font-size: 20px;
+
+        position: absolute;
+        top: 8%;
+        left: 2%;
+    }
+
+    #paragraph {
+        color: white;
+        font-size: 20px;
+        width: 400px;
+
+        position: absolute;
+        top: 14%;
+        left: 2%;
+    }
+
+    #languages{
+        color: white;
+        font-size: 20px;
+
+        position: absolute;
+        top: 45%;
+        left: 2%;
+    }
+
+    #languagesImages {
+        position: absolute;
+        top: 60%;
+        left: 0%;
+    }
+
+    #java {
+        height: 110px;
+        width: 110px;
+    }
+
+    #html {
+        height: 110px;
+        width: 110px;
+    }
+
+    #css {
+        height: 110px;
+        width: 110px;
+    }
+
+    #javaScript {
+        height: 110px;
+        width: 200px;
+
+        position: absolute;
+        left: 95%;
+    }
+
+    #sulochana {
+        height: 200px;
+        width: 100px;
+        border-radius: 10%;
+
+        position: absolute;
+        top: 4%;
+        right: 4%;
+    }
+
+    #aboutMe {
+        color: white;
+        font-size: 20px;
+        font-family: "JetBrains Mono Light";
+
+        position: absolute;
+        top: 85%;
+        right: 10%;
+    }
+}
+
 /*-------------------------------------------------Project Section--------------------------------------------------------*/
 #Project {
     display: flex;
