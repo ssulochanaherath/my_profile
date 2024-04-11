@@ -375,219 +375,68 @@
 /*}*/
 
 #About {
+    background-color: #1B1A55;
     display: flex;
+    justify-content: space-between;
     height: 100vh;
     width: 100vw;
-    background-color: #1B1A55;
+    position: relative;
 }
 
 #welcome {
+    width: 700px;
     color: white;
+    font-size: 30px;
 
     position: absolute;
-    left: 10px;
-    margin: auto;
+    top: 0%;
+    left: 0%;
 }
 
 #note {
     color: #EFF396;
     font-size: 25px;
 
-    position: relative;
-    top: -38%;
-    left: -31%;
-    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 1%;
 }
 
 #paragraph {
-    color: white;
-    font-size: 20px;
-    width: 800px;
 
-    position: absolute;
-    top: 840px;
-    left: 10px;
-    margin: auto;
 }
 
-#languages {
-    color: white;
-    font-size: 25px;
+#languages{
 
-    position: absolute;
-    top: 1000px;
-    left: 10px;
-    margin: auto;
 }
 
 #languagesImages {
-    position: absolute;
-    top: 1100px;
-    left: 10px;
-    margin: auto;
-}
 
-#sulochana {
-    display: inline-block;
-    overflow: hidden;
-    border-radius: 8%;
-
-    position: absolute;
-    top: 750px;
-    right: 20px;
-    margin: auto;
-}
-
-#aboutMe {
-    color: white;
-    font-family: Arial;
-    font-size: 20px;
-
-    position: absolute;
-    top: 1350px;
-    right: 120px;
-    margin: auto;
 }
 
 #java {
-    height: 200px;
-    width: 200px;
+
 }
 
 #html {
-    height: 200px;
-    width: 200px;
+
 }
 
 #css {
-    height: 200px;
-    width: 200px;
+
 }
 
 #javaScript {
-    height: 200px;
-    width: 350px;
+
 }
 
-/*For Laptop Large*/
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    #welcome {
-        font-size: 15px;
-        left: 1%;
-    }
+#sulochana {
 
-    #note {
-        font-size: 20px;
-        left: -28%;
-    }
-
-    #paragraph {
-        width: 450px;
-    }
-
-    #languages {
-        font-size: 25px;
-        top: 1020px;
-    }
-
-    #languagesImages {
-        top: 1120px;
-    }
-
-    #java {
-        height: 150px;
-        width: 150px;
-    }
-
-    #html {
-        height: 150px;
-        width: 150px;
-    }
-
-    #css {
-        height: 150px;
-        width: 150px;
-    }
-
-    #javaScript {
-        position: absolute;
-        left: 90%;
-        margin: auto;
-
-        height: 150px;
-        width: 280px;
-    }
 }
 
-/*!*For Laptop *!*/
-/*@media only screen and (min-width: 769px) and (max-width: 1024px) {*/
-/*    #About {*/
-/*        background-color: grey;*/
-/*    }*/
+#aboutMe {
 
-/*    #sulochana {*/
-/*        height: 400px;*/
-/*        width: 350px;*/
-
-/*        position: relative;*/
-/*        top: 5%;*/
-/*    }*/
-
-/*    #welcome {*/
-/*        font-size: 12px;*/
-/*        left: 1%;*/
-/*    }*/
-
-/*    #note {*/
-/*        font-size: 15px;*/
-/*        width: 1200px;*/
-
-/*        top: -40%;*/
-/*        left: 4%;*/
-/*    }*/
-
-/*    #paragraph {*/
-/*        font-size: 16px;*/
-/*        width: 1500px;*/
-
-/*        position: relative;*/
-/*        top: -10%;*/
-/*        left: -25%;*/
-/*    }*/
-
-/*    #languages {*/
-/*        font-size: 20px;*/
-/*        top: 1020px;*/
-/*    }*/
-
-/*    #languagesImages {*/
-/*        top: 1120px;*/
-/*    }*/
-
-/*    #java {*/
-/*        height: 150px;*/
-/*        width: 150px;*/
-/*    }*/
-
-/*    #html {*/
-/*        height: 150px;*/
-/*        width: 150px;*/
-/*    }*/
-
-/*    #css {*/
-/*        height: 150px;*/
-/*        width: 150px;*/
-/*    }*/
-
-/*    #javaScript {*/
-/*        position: absolute;*/
-/*        left: 90%;*/
-/*        margin: auto;*/
-
-/*        height: 150px;*/
-/*        width: 280px;*/
-/*    }*/
-/*}*/
+}
 
 /*-------------------------------------------------Project Section--------------------------------------------------------*/
 #Project {
