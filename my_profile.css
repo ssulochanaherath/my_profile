@@ -785,23 +785,23 @@
     }
 
     #java {
-        height: 110px;
-        width: 110px;
+        height: 80px;
+        width: 80px;
     }
 
     #html {
-        height: 110px;
-        width: 110px;
+        height: 80px;
+        width: 80px;
     }
 
     #css {
-        height: 110px;
-        width: 110px;
+        height: 80px;
+        width: 80px;
     }
 
     #javaScript {
-        height: 110px;
-        width: 200px;
+        height: 80px;
+        width: 170px;
 
         position: absolute;
         left: 95%;
