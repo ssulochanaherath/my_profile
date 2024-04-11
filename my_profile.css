@@ -422,7 +422,8 @@
 }
 
 #languagesImages {
-
+    position: absolute;
+    top: 60%;
 }
 
 #java {
@@ -442,7 +443,7 @@
 
 #javaScript {
     height: 200px;
-    width: 200px;
+    width: 350px;
 }
 
 #sulochana {
