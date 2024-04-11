@@ -898,13 +898,13 @@
     }
 
     #sulochana {
-        height: 350px;
-        width: 280px;
+        height: 320px;
+        width: 250px;
         border-radius: 10%;
 
         position: absolute;
         top: 12%;
-        right: 20%;
+        right: 15%;
     }
 
     #aboutMe {
