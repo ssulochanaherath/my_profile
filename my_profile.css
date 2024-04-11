@@ -469,10 +469,6 @@
 
 /*For Laptop Large*/
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    #About {
-        background-color: grey;
-    }
-
     #welcome {
         width: 700px;
         color: white;
@@ -495,7 +491,98 @@
     #paragraph {
         color: white;
         font-size: 23px;
-        width: 500px;
+        width: 650px;
+
+        position: absolute;
+        top: 20%;
+        left: 2%;
+    }
+
+    #languages{
+        color: white;
+        font-size: 22px;
+
+        position: absolute;
+        top: 45%;
+        left: 2%;
+    }
+
+    #languagesImages {
+        position: absolute;
+        top: 60%;
+        left: 0%;
+    }
+
+    #java {
+        height: 150px;
+        width: 150px;
+    }
+
+    #html {
+        height: 150px;
+        width: 150px;
+    }
+
+    #css {
+        height: 150px;
+        width: 150px;
+    }
+
+    #javaScript {
+        height: 150px;
+        width: 300px;
+    }
+
+    #sulochana {
+        height: 700px;
+        width: 600px;
+        border-radius: 10%;
+
+        position: absolute;
+        top: 5%;
+        right: 4%;
+    }
+
+    #aboutMe {
+        color: white;
+        font-size: 20px;
+        font-family: "JetBrains Mono Light";
+
+        position: absolute;
+        top: 85%;
+        right: 13%;
+    }
+}
+
+/*For Laptop */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #About {
+        background-color: grey;
+    }
+
+    #welcome {
+        width: 700px;
+        color: white;
+        font-size: 18px;
+
+        position: absolute;
+        top: 0%;
+        left: 1%;
+    }
+
+    #note {
+        color: #EFF396;
+        font-size: 22px;
+
+        position: absolute;
+        top: 12%;
+        left: 2%;
+    }
+
+    #paragraph {
+        color: white;
+        font-size: 23px;
+        width: 650px;
 
         position: absolute;
         top: 20%;
