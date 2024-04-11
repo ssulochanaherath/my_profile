@@ -448,7 +448,13 @@
 }
 
 #sulochana {
+    height: 800px;
+    width: 700px;
+    border-radius: 10%;
 
+    position: absolute;
+    top: 5%;
+    right: 4%;
 }
 
 #aboutMe {
