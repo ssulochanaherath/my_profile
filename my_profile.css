@@ -605,27 +605,26 @@
     }
 
     #java {
-        height: 150px;
-        width: 150px;
+        height: 110px;
+        width: 110px;
     }
 
     #html {
-        height: 150px;
-        width: 150px;
+        height: 110px;
+        width: 110px;
     }
 
     #css {
-        height: 150px;
-        width: 150px;
+        height: 110px;
+        width: 110px;
     }
 
     #javaScript {
-        height: 150px;
-        width: 300px;
+        height: 110px;
+        width: 200px;
 
         position: absolute;
-        top: 110%;
-        left: -10%;
+        left: 95%;
     }
 
     #sulochana {
