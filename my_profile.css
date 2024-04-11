@@ -951,10 +951,10 @@
 
     #languages{
         color: white;
-        font-size: 14px;
+        font-size: 12px;
 
         position: absolute;
-        top: 75%;
+        top: 70%;
         left: 2%;
     }
 
