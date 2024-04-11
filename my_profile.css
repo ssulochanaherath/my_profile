@@ -625,12 +625,12 @@
     }
 
     #sulochana {
-        height: 700px;
-        width: 600px;
+        height: 500px;
+        width: 400px;
         border-radius: 10%;
 
         position: absolute;
-        top: 5%;
+        top: 4%;
         right: 4%;
     }
 
