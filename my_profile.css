@@ -826,10 +826,6 @@
 
 /* For Mobile Medium */
 @media only screen and (min-width: 321px) and (max-width: 375px) {
-    #About {
-        background-color: grey;
-    }
-
     #welcome {
         width: 700px;
         color: white;
@@ -865,7 +861,7 @@
 
         position: absolute;
         top: 75%;
-        left: 0%;
+        left: 2%;
     }
 
     #languagesImages {
