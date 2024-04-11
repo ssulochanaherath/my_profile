@@ -865,7 +865,7 @@
 
         position: absolute;
         top: 75%;
-        left: 2%;
+        left: 0%;
     }
 
     #languagesImages {
@@ -875,23 +875,23 @@
     }
 
     #java {
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
     }
 
     #html {
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
     }
 
     #css {
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
     }
 
     #javaScript {
-        height: 80px;
-        width: 170px;
+        height: 70px;
+        width: 160px;
 
         position: absolute;
         left: 95%;
