@@ -1349,10 +1349,6 @@
 
 /* For Tablet */
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-    #Project {
-        background-color: grey;
-    }
-
     #Projects {
         color: #836FFF;
         font-size: 75px;
