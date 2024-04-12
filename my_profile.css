@@ -1510,10 +1510,10 @@
 
     #chatName {
         color: white;
-        font-size: 18px;
+        font-size: 10px;
 
         position: absolute;
-        top: 42%;
+        top: 40%;
         left: 62%;
         margin: auto;
     }
