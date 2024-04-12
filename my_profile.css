@@ -1146,12 +1146,12 @@
 
     #Projects {
         color: #836FFF;
-        font-size: 120px;
+        font-size: 110px;
         transform: rotate(270deg);
 
         position: absolute;
         top: 18%;
-        left: -15%;
+        left: -22%;
         margin: auto;
     }
 
