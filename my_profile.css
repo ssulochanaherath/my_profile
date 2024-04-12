@@ -1549,6 +1549,106 @@
 
 /* For Mobile Medium */
 @media only screen and (min-width: 321px) and (max-width: 375px) {
+    #Projects {
+        color: #836FFF;
+        font-size: 42px;
+        transform: rotate(0deg);
+
+        position: absolute;
+        top: -5%;
+        left: 5%;
+        margin: auto;
+    }
+
+    #myProjects {
+        color: #15F5BA;
+        font-size: 18px;
+
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        margin: auto;
+    }
+
+    #cine {
+        height: 120px;
+        width: 180px;
+    }
+
+    #cineMax {
+        position: absolute;
+        top: 25%;
+        left: 2%;
+        margin: auto;
+    }
+
+    #cineMaxName {
+        color: white;
+        font-size: 10px;
+
+        position: absolute;
+        top: 40%;
+        left: 2%;
+        margin: auto;
+    }
+
+    #chat {
+        height: 120px;
+        width: 80px;
+    }
+
+    #chatApplication {
+        position: absolute;
+        top: 25%;
+        left: 68%;
+        margin: auto;
+    }
+
+    #chatName {
+        color: white;
+        font-size: 10px;
+
+        position: absolute;
+        top: 40%;
+        left: 68%;
+        margin: auto;
+    }
+
+    #teamProjects {
+        color: #15F5BA;
+        font-size: 18px;
+
+        position: absolute;
+        top: 52%;
+        left: 2%;
+        margin: auto;
+    }
+
+    #elephant {
+        height: 120px;
+        width: 180px;
+    }
+
+    #elephantPass {
+        position: absolute;
+        top: 62%;
+        left: 2%;
+        margin: auto;
+    }
+
+    #projectName {
+        color: white;
+        font-size: 10px;
+
+        position: absolute;
+        top: 79%;
+        left: 2%;
+        margin: auto;
+    }
+}
+
+/*For Mobile Small */
+@media only screen and (max-width: 320px) {
     #Project {
         background-color: grey;
     }
