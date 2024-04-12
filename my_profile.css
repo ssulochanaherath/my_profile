@@ -1446,3 +1446,107 @@
         margin: auto;
     }
 }
+
+/*For Mobile Large */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    #Project {
+        background-color: grey;
+    }
+
+    #Projects {
+        color: #836FFF;
+        font-size: 50px;
+        transform: rotate(0deg);
+
+        position: absolute;
+        top: -10%;
+        left: 5%;
+        margin: auto;
+    }
+
+    #myProjects {
+        color: #15F5BA;
+        font-size: 22px;
+
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        margin: auto;
+    }
+
+    #cine {
+        height: 150px;
+        width: 250px;
+    }
+
+    #cineMax {
+        position: absolute;
+        top: 25%;
+        left: 2%;
+        margin: auto;
+    }
+
+    #cineMaxName {
+        color: white;
+        font-size: 18px;
+
+        position: absolute;
+        top: 42%;
+        left: 2%;
+        margin: auto;
+    }
+
+    #chat {
+        height: 150px;
+        width: 100px;
+    }
+
+    #chatApplication {
+        position: absolute;
+        top: 25%;
+        left: 62%;
+        margin: auto;
+    }
+
+    #chatName {
+        color: white;
+        font-size: 18px;
+
+        position: absolute;
+        top: 42%;
+        left: 62%;
+        margin: auto;
+    }
+
+    #teamProjects {
+        color: #15F5BA;
+        font-size: 22px;
+
+        position: absolute;
+        top: 52%;
+        left: 2%;
+        margin: auto;
+    }
+
+    #elephant {
+        height: 150px;
+        width: 250px;
+    }
+
+    #elephantPass {
+        position: absolute;
+        top: 62%;
+        left: 2%;
+        margin: auto;
+    }
+
+    #projectName {
+        color: white;
+        font-size: 18px;
+
+        position: absolute;
+        top: 79%;
+        left: 2%;
+        margin: auto;
+    }
+}
