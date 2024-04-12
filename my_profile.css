@@ -1655,7 +1655,7 @@
 
     #Projects {
         color: #836FFF;
-        font-size: 42px;
+        font-size: 35px;
         transform: rotate(0deg);
 
         position: absolute;
@@ -1666,7 +1666,7 @@
 
     #myProjects {
         color: #15F5BA;
-        font-size: 18px;
+        font-size: 16px;
 
         position: absolute;
         top: 15%;
