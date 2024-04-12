@@ -1077,6 +1077,11 @@
     margin: auto;
 }
 
+#cine {
+    height: 200px;
+    width: 300px;
+}
+
 #cineMax {
     position: absolute;
     top: 15%;
@@ -1245,6 +1250,11 @@
         margin: auto;
     }
 
+    #cine {
+        height: 200px;
+        width: 300px;
+    }
+
     #cineMax {
         position: absolute;
         top: 15%;
@@ -1332,6 +1342,11 @@
         top: 15%;
         left: 2%;
         margin: auto;
+    }
+
+    #cine {
+        height: 150px;
+        width: 250px;
     }
 
     #cineMax {
