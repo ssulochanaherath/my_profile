@@ -1395,11 +1395,11 @@
 
     #chatName {
         color: white;
-        font-size: 20px;
+        font-size: 18px;
 
         position: absolute;
-        top: 37%;
-        left: 72%;
+        top: 42%;
+        left: 62%;
         margin: auto;
     }
 
