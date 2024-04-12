@@ -1649,10 +1649,6 @@
 
 /*For Mobile Small */
 @media only screen and (max-width: 320px) {
-    #Project {
-        background-color: grey;
-    }
-
     #Projects {
         color: #836FFF;
         font-size: 35px;
