@@ -1315,12 +1315,12 @@
 
     #Projects {
         color: #836FFF;
-        font-size: 100px;
-        transform: rotate(270deg);
+        font-size: 75px;
+        transform: rotate(0deg);
 
         position: absolute;
-        top: 18%;
-        left: -28%;
+        top: -15%;
+        left: 5%;
         margin: auto;
     }
 
