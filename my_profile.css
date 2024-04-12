@@ -1442,11 +1442,11 @@
 
     #projectName {
         color: white;
-        font-size: 20px;
+        font-size: 18px;
 
         position: absolute;
-        top: 77%;
-        left: 32%;
+        top: 79%;
+        left: 2%;
         margin: auto;
     }
 }
