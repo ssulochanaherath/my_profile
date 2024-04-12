@@ -1140,13 +1140,97 @@
 
 /*For Laptop Large*/
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #Projects {
+        color: #836FFF;
+        font-size: 110px;
+        transform: rotate(270deg);
+
+        position: absolute;
+        top: 18%;
+        left: -22%;
+    }
+
+    #myProjects {
+        color: #15F5BA;
+        font-size: 30px;
+
+        position: absolute;
+        top: 5%;
+        left: 25%;
+        margin: auto;
+    }
+
+    #cineMax {
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        margin: auto;
+    }
+
+    #cineMaxName {
+        color: white;
+        font-size: 20px;
+
+        position: absolute;
+        top: 37%;
+        left: 25%;
+        margin: auto;
+    }
+
+    #chatApplication {
+        position: absolute;
+        top: 15%;
+        left: 58%;
+        margin: auto;
+    }
+
+    #chatName {
+        color: white;
+        font-size: 20px;
+
+        position: absolute;
+        top: 37%;
+        left: 58%;
+        margin: auto;
+    }
+
+    #teamProjects {
+        color: #15F5BA;
+        font-size: 30px;
+
+        position: absolute;
+        top: 45%;
+        left: 25%;
+        margin: auto;
+    }
+
+    #elephantPass {
+        position: absolute;
+        top: 55%;
+        left: 25%;
+        margin: auto;
+    }
+
+    #projectName {
+        color: white;
+        font-size: 20px;
+
+        position: absolute;
+        top: 77%;
+        left: 25%;
+        margin: auto;
+    }
+}
+
+/* For Laptop */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     #Project {
         background-color: grey;
     }
 
     #Projects {
         color: #836FFF;
-        font-size: 110px;
+        font-size: 100px;
         transform: rotate(270deg);
 
         position: absolute;
@@ -1224,94 +1308,5 @@
         top: 77%;
         left: 25%;
         margin: auto;
-    }
-
-    /*For Laptop */
-    @media only screen and (min-width: 769px) and (max-width: 1024px) {
-        #Project {
-            background-color: grey;
-        }
-
-        #Projects {
-            color: #836FFF;
-            font-size: 110px;
-            transform: rotate(270deg);
-
-            position: absolute;
-            top: 18%;
-            left: -22%;
-            margin: auto;
-        }
-
-        #myProjects {
-            color: #15F5BA;
-            font-size: 30px;
-
-            position: absolute;
-            top: 5%;
-            left: 25%;
-            margin: auto;
-        }
-
-        #cineMax {
-            position: absolute;
-            top: 15%;
-            left: 25%;
-            margin: auto;
-        }
-
-        #cineMaxName {
-            color: white;
-            font-size: 20px;
-
-            position: absolute;
-            top: 37%;
-            left: 25%;
-            margin: auto;
-        }
-
-        #chatApplication {
-            position: absolute;
-            top: 15%;
-            left: 58%;
-            margin: auto;
-        }
-
-        #chatName {
-            color: white;
-            font-size: 20px;
-
-            position: absolute;
-            top: 37%;
-            left: 58%;
-            margin: auto;
-        }
-
-        #teamProjects {
-            color: #15F5BA;
-            font-size: 30px;
-
-            position: absolute;
-            top: 45%;
-            left: 25%;
-            margin: auto;
-        }
-
-        #elephantPass {
-            position: absolute;
-            top: 55%;
-            left: 25%;
-            margin: auto;
-        }
-
-        #projectName {
-            color: white;
-            font-size: 20px;
-
-            position: absolute;
-            top: 77%;
-            left: 25%;
-            margin: auto;
-        }
     }
 }
