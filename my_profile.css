@@ -1326,11 +1326,11 @@
 
     #myProjects {
         color: #15F5BA;
-        font-size: 28px;
+        font-size: 25px;
 
         position: absolute;
-        top: 5%;
-        left: 32%;
+        top: 15%;
+        left: 2%;
         margin: auto;
     }
 
