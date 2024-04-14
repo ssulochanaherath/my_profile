@@ -1746,3 +1746,14 @@
         margin: auto;
     }
 }
+
+/*----------------------------------------------Assignment Section----------------------------------------------------*/
+
+#Assignments {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1B1A55;
+    opacity: 0.85;
+    position: relative;
+}
