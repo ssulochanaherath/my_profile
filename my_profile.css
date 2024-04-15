@@ -1766,3 +1766,12 @@
     top: -15%;
     right: 2%;
 }
+
+#internet {
+    font-size: 35px;
+    color: white;
+
+    position: absolute;
+    top: 16%;
+    right: 2%;
+}
