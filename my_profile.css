@@ -1757,3 +1757,12 @@
     opacity: 0.85;
     position: relative;
 }
+
+#Assignment {
+    font-size: 85px;
+    color: #836FFF;
+
+    position: absolute;
+    top: -15%;
+    right: 2%;
+}
