@@ -1898,11 +1898,11 @@
     }
 
     #internet {
-        font-size: 25px;
+        font-size: 22px;
         color: white;
 
         position: absolute;
-        top: 14%;
+        top: 12%;
         right: 2%;
     }
 
