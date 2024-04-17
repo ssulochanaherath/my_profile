@@ -2054,10 +2054,6 @@
 
 /*For Mobile Small */
 @media only screen and (max-width: 320px) {
-    #Assignments {
-        background-color: grey;
-    }
-
     #Assignment {
         font-size: 22px;
         color: #836FFF;
