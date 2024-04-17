@@ -1776,64 +1776,13 @@
     right: 2%;
 }
 
-#assiImage1 {
+#assi img {
     height: 180px;
     width: 125px;
 }
 
-#assiImage2 {
-    height: 180px;
-    width: 125px;
-}
-
-#assiImage3 {
-    height: 180px;
-    width: 125px;
-}
-
-#assiImage4 {
-    height: 180px;
-    width: 125px;
-}
-
-#assiImage5 {
-    height: 180px;
-    width: 125px;
-}
-
-#assiImage6 {
-    height: 180px;
-    width: 125px;
-}
-
-#assiImage7 {
-    height: 180px;
-    width: 125px;
-}
-
-#assiImage8 {
-    height: 180px;
-    width: 125px;
-}
-
-#assiImage9 {
-    height: 180px;
-    width: 125px;
-}
-
-#assiImage10 {
-    height: 180px;
-    width: 125px;
-}
-
-#assiImage11 {
-    height: 180px;
-    width: 125px;
-}
-
-#assiImage12 {
-    height: 180px;
-    width: 125px;
+#assi p {
+    color: white;
 }
 
 #assi {
