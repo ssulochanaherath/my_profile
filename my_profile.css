@@ -2011,10 +2011,6 @@
 
 /* For Mobile Medium */
 @media only screen and (min-width: 321px) and (max-width: 375px) {
-    #Assignments {
-        background-color: grey;
-    }
-
     #Assignment {
         font-size: 25px;
         color: #836FFF;
@@ -2058,5 +2054,47 @@
 
 /*For Mobile Small */
 @media only screen and (max-width: 320px) {
+    #Assignments {
+        background-color: grey;
+    }
 
+    #Assignment {
+        font-size: 22px;
+        color: #836FFF;
+
+        position: absolute;
+        top: -2%;
+        right: 4%;
+    }
+
+    #internet {
+        font-size: 15px;
+        color: white;
+
+        position: absolute;
+        top: 8%;
+        right: 4%;
+    }
+
+    #assi {
+        position: absolute;
+        top: 18%;
+        left: 05%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #assi img {
+        height: 80px;
+        width: 60px;
+
+        margin-right: 50px;
+        margin-top: 25px;
+    }
+
+    #assi p {
+        color: white;
+        font-size: 12px;
+    }
 }
