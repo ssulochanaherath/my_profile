@@ -1906,22 +1906,19 @@
     }
 
     #assi {
-        height: 400px;
-        width: 1200px;
-
         position: absolute;
         top: 25%;
         left: 05%;
 
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-
-
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     #assi img {
         height: 120px;
         width: 85px;
+
+        margin-right: 50px;
     }
 
     #assi p {
