@@ -59,6 +59,11 @@
     transform: translate(-50%, -50%);
 }
 
+#sangeeth {
+    height: 700px;
+    width: 600px;
+}
+
 #fullStack {
     color: #15F5BA;
     font-size: 45px;
@@ -108,8 +113,8 @@
 /* For Laptop Large */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     #sangeeth {
-        height: 450px;
-        width: 350px;
+        height: 600px;
+        width: 500px;
     }
 
     #homeImage {
