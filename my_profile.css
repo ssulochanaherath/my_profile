@@ -1776,19 +1776,9 @@
     right: 2%;
 }
 
-#assi img {
-    height: 180px;
-    width: 125px;
-}
-
-#assi p {
-    color: white;
-}
-
 #assi {
     height: 720px;
     width: 1200px;
-    background-color: white;
 
     position: absolute;
     top: 20%;
@@ -1796,4 +1786,14 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#assi img {
+    height: 180px;
+    width: 125px;
+}
+
+#assi p {
+    color: white;
+    font-size: 20px;
 }
