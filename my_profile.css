@@ -2087,7 +2087,7 @@
 
     #assi img {
         height: 80px;
-        width: 60px;
+        width: 50px;
 
         margin-right: 50px;
         margin-top: 25px;
@@ -2095,6 +2095,6 @@
 
     #assi p {
         color: white;
-        font-size: 12px;
+        font-size: 10px;
     }
 }
