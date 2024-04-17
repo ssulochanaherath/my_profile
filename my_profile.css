@@ -1864,11 +1864,11 @@
     }
 
     #assi {
-        height: 680px;
+        height: 650px;
         width: 1200px;
 
         position: absolute;
-        top: 18%;
+        top: 25%;
         left: 05%;
 
         display: grid;
