@@ -2035,7 +2035,7 @@
 
     #assi {
         position: absolute;
-        top: 20%;
+        top: 18%;
         left: 05%;
 
         display: grid;
@@ -2047,7 +2047,7 @@
         width: 60px;
 
         margin-right: 50px;
-        margin-top: 20px;
+        margin-top: 25px;
     }
 
     #assi p {
