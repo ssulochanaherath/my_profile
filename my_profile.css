@@ -1841,10 +1841,6 @@
 
 /*For Laptop Large*/
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    #Assignments {
-        background-color: grey;
-    }
-
     #Assignment {
         font-size: 65px;
         color: #836FFF;
@@ -1888,5 +1884,47 @@
 
 /*For Laptop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #Assignments {
+        background-color: grey;
+    }
 
+    #Assignment {
+        font-size: 55px;
+        color: #836FFF;
+
+        position: absolute;
+        top: -8%;
+        right: 2%;
+    }
+
+    #internet {
+        font-size: 25px;
+        color: white;
+
+        position: absolute;
+        top: 14%;
+        right: 2%;
+    }
+
+    #assi {
+        height: 650px;
+        width: 1200px;
+
+        position: absolute;
+        top: 25%;
+        left: 05%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #assi img {
+        height: 150px;
+        width: 105px;
+    }
+
+    #assi p {
+        color: white;
+        font-size: 20px;
+    }
 }
