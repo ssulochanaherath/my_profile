@@ -1775,3 +1775,21 @@
     top: 16%;
     right: 2%;
 }
+
+#assiImage {
+    height: 180px;
+    width: 125px;
+}
+
+#assi {
+    height: 720px;
+    width: 1200px;
+    background-color: white;
+
+    position: absolute;
+    top: 20%;
+    left: 05%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
