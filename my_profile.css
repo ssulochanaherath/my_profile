@@ -1860,9 +1860,6 @@
     }
 
     #assi {
-        height: 650px;
-        width: 1200px;
-
         position: absolute;
         top: 25%;
         left: 05%;
@@ -1874,6 +1871,8 @@
     #assi img {
         height: 150px;
         width: 105px;
+
+        margin-right: 150px;
     }
 
     #assi p {
