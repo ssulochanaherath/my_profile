@@ -1939,11 +1939,11 @@
     }
 
     #internet {
-        font-size: 22px;
+        font-size: 20px;
         color: white;
 
         position: absolute;
-        top: 12%;
+        top: 10%;
         right: 4%;
     }
 
