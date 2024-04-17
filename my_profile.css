@@ -1818,12 +1818,10 @@
 }
 
 #assi {
-    height: 720px;
-    width: 1200px;
-
+    justify-content: space-between;
     position: absolute;
     top: 18%;
-    left: 05%;
+    left: 5%;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1832,6 +1830,8 @@
 #assi img {
     height: 180px;
     width: 125px;
+
+    margin-right: 200px;
 }
 
 #assi p {
@@ -1907,7 +1907,7 @@
     }
 
     #assi {
-        height: 650px;
+        height: 400px;
         width: 1200px;
 
         position: absolute;
@@ -1915,12 +1915,14 @@
         left: 05%;
 
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+
+
     }
 
     #assi img {
-        height: 150px;
-        width: 105px;
+        height: 120px;
+        width: 85px;
     }
 
     #assi p {
