@@ -2160,3 +2160,8 @@
     top: -5%;
     right: 5%;
 }
+
+#gallerySangeeth {
+    height: 100vh;
+    opacity: 70%;
+}
