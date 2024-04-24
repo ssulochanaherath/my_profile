@@ -2152,3 +2152,11 @@
     background-color: #1B1A55;
     position: relative;
 }
+
+#galleryTitle {
+    font-size: 150px;
+    color: #15F5BA;
+    position: absolute;
+    top: -5%;
+    right: 5%;
+}
