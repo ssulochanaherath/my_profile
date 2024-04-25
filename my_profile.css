@@ -2159,6 +2159,7 @@
     position: absolute;
     top: -10%;
     right: 5%;
+    z-index: 9999;
 }
 
 #gallerySangeeth {
@@ -2239,10 +2240,6 @@ main{
 
 /*For Laptop Large*/
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    #Gallery {
-        background-color: grey;
-    }
-
     #galleryTitle {
         font-size: 125px;
     }
@@ -2261,9 +2258,9 @@ main{
     }
 }
 
-/*!*For Laptop *!*/
-/*@media only screen and (min-width: 769px) and (max-width: 1024px) {*/
-/*    #Home {*/
-/*        background-color: grey;*/
-/*    }*/
-/*}*/
+/*For Laptop */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #Gallery {
+        background-color: grey;
+    }
+}
