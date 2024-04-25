@@ -2254,4 +2254,9 @@ main{
         right: 12%;
         bottom: 8%;
     }
+
+    #images>div{
+        height: 600px;
+        width: 950px;
+    }
 }
