@@ -2302,10 +2302,6 @@ main{
 
 /*For Mobile Large*/
 @media only screen and (min-width: 376px) and (max-width: 425px) {
-    #Gallery {
-        background-color: grey;
-    }
-
     #galleryTitle {
         font-size: 75px;
         top: -5%;
@@ -2334,5 +2330,32 @@ main{
 
 /* For Mobile Medium */
 @media only screen and (min-width: 321px) and (max-width: 375px) {
+    #Gallery {
+        background-color: grey;
+    }
 
+    #galleryTitle {
+        font-size: 70px;
+        top: -5%;
+        left: 5%;
+    }
+
+    #gallerySangeeth {
+        height: 100vh;
+        width: 100vw;
+        opacity: 70%;
+    }
+
+    main{
+        height: 250px;
+        width: 350px;
+
+        right: 10%;
+        bottom: 5%;
+    }
+
+    #images>div{
+        height: 250px;
+        width: 350px;
+    }
 }
