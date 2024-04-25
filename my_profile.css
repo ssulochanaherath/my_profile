@@ -2260,10 +2260,6 @@ main{
 
 /*For Laptop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    #Gallery {
-        background-color: grey;
-    }
-
     #galleryTitle {
         font-size: 100px;
         top: -5%;
@@ -2285,5 +2281,25 @@ main{
 
 /* For Tablet */
 @media only screen and (min-width: 426px) and (max-width: 768px) {
+    #Gallery {
+        background-color: grey;
+    }
 
+    #galleryTitle {
+        font-size: 75px;
+        top: -5%;
+    }
+
+    main{
+        height: 450px;
+        width: 750px;
+
+        right: 8%;
+        bottom: 5%;
+    }
+
+    #images>div{
+        height: 600px;
+        width: 950px;
+    }
 }
