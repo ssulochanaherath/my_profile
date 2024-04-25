@@ -2165,3 +2165,29 @@
     height: 100vh;
     opacity: 70%;
 }
+
+#img1 {
+    position: absolute;
+    height: 420px;
+    width: 600px;
+
+    left: 0%;
+}
+
+#img2 {
+    position: absolute;
+    height: 300px;
+    width: 250px;
+}
+
+#img3 {
+    position: absolute;
+    height: 300px;
+    width: 250px;
+}
+
+#img4 {
+    position: absolute;
+    height: 300px;
+    width: 250px;
+}
