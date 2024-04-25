@@ -2263,4 +2263,22 @@ main{
     #Gallery {
         background-color: grey;
     }
+
+    #galleryTitle {
+        font-size: 100px;
+        top: -5%;
+    }
+
+    main{
+        height: 600px;
+        width: 950px;
+
+        right: 12%;
+        bottom: 8%;
+    }
+
+    #images>div{
+        height: 600px;
+        width: 950px;
+    }
 }
