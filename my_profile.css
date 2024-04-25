@@ -2281,6 +2281,27 @@ main{
 
 /* For Tablet */
 @media only screen and (min-width: 426px) and (max-width: 768px) {
+    #galleryTitle {
+        font-size: 75px;
+        top: -5%;
+    }
+
+    main{
+        height: 350px;
+        width: 550px;
+
+        right: 8%;
+        bottom: 5%;
+    }
+
+    #images>div{
+        height: 350px;
+        width: 550px;
+    }
+}
+
+/*For Mobile Large*/
+@media only screen and (min-width: 376px) and (max-width: 425px) {
     #Gallery {
         background-color: grey;
     }
@@ -2288,6 +2309,12 @@ main{
     #galleryTitle {
         font-size: 75px;
         top: -5%;
+    }
+
+    #gallerySangeeth {
+        height: 100vh;
+        width: 100vw;
+        opacity: 70%;
     }
 
     main{
