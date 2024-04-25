@@ -2331,3 +2331,8 @@ main{
         width: 350px;
     }
 }
+
+/* For Mobile Medium */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+
+}
