@@ -2270,11 +2270,11 @@ main{
     }
 
     main{
-        height: 600px;
-        width: 950px;
+        height: 450px;
+        width: 750px;
 
-        right: 12%;
-        bottom: 8%;
+        right: 8%;
+        bottom: 5%;
     }
 
     #images>div{
