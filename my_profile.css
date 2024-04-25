@@ -2166,28 +2166,73 @@
     opacity: 70%;
 }
 
-#img1 {
-    position: absolute;
-    height: 420px;
-    width: 600px;
+main{
+    height: 650px;
+    width: 980px;
 
-    left: 0%;
+    position: absolute;
+    right: 15%;
+    bottom: 1%;
+    margin: auto;
+
+    overflow: hidden;
 }
 
-#img2 {
-    position: absolute;
-    height: 300px;
-    width: 250px;
+#images {
+    width: 400vw;
+    display: flex;
 }
 
-#img3 {
-    position: absolute;
-    height: 300px;
-    width: 250px;
+#images>div{
+    height: 650px;
+    width: 980px;
+
+    animation: anime 12s infinite;
+    animation-direction: alternate;
 }
 
-#img4 {
-    position: absolute;
-    height: 300px;
-    width: 250px;
+#images>div:first-child{
+    background: url("assests/images/image-01.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#images>div:nth-child(2){
+    background: url("assests/images/image-02.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#images>div:nth-child(3){
+    background: url("assests/images/image-03.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#images>div:nth-child(4){
+    background: url("assests/images/image-04.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes anime {
+    0%, 20%{
+        transform: translateX(0%);
+    }
+
+    25%, 45%{
+        transform: translateX(-100%);
+    }
+
+    50%, 70%{
+        transform: translateX(-200%);
+    }
+
+    75%, 100%{
+        transform: translateX(-300%);
+    }
 }
