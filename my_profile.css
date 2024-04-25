@@ -2348,7 +2348,7 @@ main{
 
     main{
         height: 250px;
-        width: 350px;
+        width: 325px;
 
         right: 10%;
         bottom: 5%;
@@ -2356,6 +2356,6 @@ main{
 
     #images>div{
         height: 250px;
-        width: 350px;
+        width: 325px;
     }
 }
