@@ -2236,3 +2236,48 @@ main{
         transform: translateX(-300%);
     }
 }
+
+/*For Laptop Large*/
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #Gallery {
+        background-color: grey;
+    }
+
+    #galleryTitle {
+        font-size: 125px;
+        color: #15F5BA;
+        position: absolute;
+        top: -10%;
+        right: 5%;
+    }
+
+    #gallerySangeeth {
+        height: 100vh;
+        opacity: 70%;
+    }
+
+    main{
+        height: 650px;
+        width: 980px;
+
+        position: absolute;
+        right: 15%;
+        bottom: 4%;
+        margin: auto;
+
+        overflow: hidden;
+    }
+
+    #images {
+        width: 400vw;
+        display: flex;
+    }
+
+    #images>div{
+        height: 650px;
+        width: 980px;
+
+        animation: anime 12s infinite;
+        animation-direction: alternate;
+    }
+}
