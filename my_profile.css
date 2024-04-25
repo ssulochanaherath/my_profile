@@ -2322,13 +2322,13 @@ main{
         height: 250px;
         width: 350px;
 
-        right: 0%;
-        left: 0%;
+        right: 0;
+        left: 0;
         bottom: 5%;
     }
 
     #images>div{
-        height: 350px;
-        width: 550px;
+        height: 250px;
+        width: 350px;
     }
 }
