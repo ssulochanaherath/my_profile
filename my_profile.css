@@ -2245,39 +2245,13 @@ main{
 
     #galleryTitle {
         font-size: 125px;
-        color: #15F5BA;
-        position: absolute;
-        top: -10%;
-        right: 5%;
-    }
-
-    #gallerySangeeth {
-        height: 100vh;
-        opacity: 70%;
     }
 
     main{
-        height: 650px;
-        width: 980px;
+        height: 600px;
+        width: 950px;
 
-        position: absolute;
-        right: 15%;
-        bottom: 4%;
-        margin: auto;
-
-        overflow: hidden;
-    }
-
-    #images {
-        width: 400vw;
-        display: flex;
-    }
-
-    #images>div{
-        height: 650px;
-        width: 980px;
-
-        animation: anime 12s infinite;
-        animation-direction: alternate;
+        right: 12%;
+        bottom: 8%;
     }
 }
