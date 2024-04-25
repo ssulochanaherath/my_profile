@@ -2360,7 +2360,7 @@ main{
 @media only screen and (max-width: 320px) {
     #galleryTitle {
         font-size: 60px;
-        top: -5%;
+        top: 0%;
         left: 5%;
     }
 
