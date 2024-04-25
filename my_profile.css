@@ -2322,8 +2322,7 @@ main{
         height: 250px;
         width: 350px;
 
-        right: 0;
-        left: 0;
+        right: 10%;
         bottom: 5%;
     }
 
