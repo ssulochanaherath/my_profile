@@ -2330,12 +2330,36 @@ main{
 
 /* For Mobile Medium */
 @media only screen and (min-width: 321px) and (max-width: 375px) {
-    #Gallery {
-        background-color: grey;
-    }
-
     #galleryTitle {
         font-size: 70px;
+        top: -5%;
+        left: 5%;
+    }
+
+    #gallerySangeeth {
+        height: 100vh;
+        width: 100vw;
+        opacity: 70%;
+    }
+
+    main{
+        height: 250px;
+        width: 325px;
+
+        right: 8%;
+        bottom: 5%;
+    }
+
+    #images>div{
+        height: 250px;
+        width: 325px;
+    }
+}
+
+/*For Mobile Small */
+@media only screen and (max-width: 320px) {
+    #galleryTitle {
+        font-size: 60px;
         top: -5%;
         left: 5%;
     }
