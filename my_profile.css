@@ -2441,3 +2441,8 @@ main{
     position: absolute;
     top: 0%;
 }
+
+#left {
+    position: absolute;
+    top: 25%;
+}
