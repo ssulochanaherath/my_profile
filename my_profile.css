@@ -2427,3 +2427,14 @@ main{
 /*        background-color: grey;*/
 /*    }*/
 /*}*/
+
+#Contact {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#contactMe {
+    font-size: 100px;
+}
