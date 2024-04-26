@@ -2452,3 +2452,10 @@ main{
     top: 25%;
     right: 50%;
 }
+
+#footer {
+    background-color: #1B1A55;
+    color: white;
+    font-size: 25px;
+    height: 100px;
+}
