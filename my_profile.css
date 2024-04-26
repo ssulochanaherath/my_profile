@@ -2465,3 +2465,8 @@ main{
     font-size: 25px;
     height: 100px;
 }
+
+#footerNote {
+    position: absolute;
+    left: 30%;
+}
