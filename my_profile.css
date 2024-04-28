@@ -2562,4 +2562,9 @@ main{
         font-size: 10px;
         left: 15%;
     }
+
+    #name {
+        height: 20px;
+        width: 20px;
+    }
 }
