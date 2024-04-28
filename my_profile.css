@@ -2615,10 +2615,6 @@ main{
 
 /*For Mobile Small */
 @media only screen and (max-width: 320px) {
-    #Contact {
-        background-color: grey;
-    }
-
     #contactMe {
         font-size: 45px;
     }
