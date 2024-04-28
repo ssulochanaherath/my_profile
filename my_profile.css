@@ -2543,9 +2543,9 @@ main{
     }
 }
 
-/* For Mobile Large */
-/*@media only screen and (min-width: 376px) and (max-width: 425px) {*/
-/*    #Home {*/
-/*        background-color: grey;*/
-/*    }*/
-/*}*/
+/*For Mobile Large */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    #Home {
+        background-color: grey;
+    }
+}
