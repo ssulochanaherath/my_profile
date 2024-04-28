@@ -2520,10 +2520,6 @@ main{
 
 /* For Tablet */
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-    #Contact {
-        background-color: grey;
-    }
-
     #contactMe {
         font-size: 55px;
     }
@@ -2545,7 +2541,25 @@ main{
 
 /*For Mobile Large */
 @media only screen and (min-width: 376px) and (max-width: 425px) {
-    #Home {
+    #Contact {
         background-color: grey;
+    }
+
+    #contactMe {
+        font-size: 55px;
+    }
+
+    #left {
+        top: 20%;
+    }
+
+    #right {
+        top: 20%;
+        right:5%;
+    }
+
+    #footerNote {
+        font-size: 15px;
+        left: 20%;
     }
 }
