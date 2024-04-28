@@ -2563,23 +2563,12 @@ main{
         left: 15%;
     }
 
-    #name {
+    div>div>img {
         height: 20px;
         width: 20px;
     }
 
-    #tele {
-        height: 20px;
-        width: 20px;
-    }
-
-    #e-mail {
-        height: 20px;
-        width: 20px;
-    }
-
-    #address {
-        height: 20px;
-        width: 20px;
+    div>div>h3 {
+        font-size: 12px;
     }
 }
