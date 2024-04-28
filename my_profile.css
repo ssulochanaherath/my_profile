@@ -2487,4 +2487,17 @@ main{
     #contactMe {
         font-size: 80px;
     }
+
+    #left {
+        left: 8%;
+    }
+
+    #right {
+        right:30%;
+    }
+
+    #footerNote {
+        font-size: 25px;
+        left: 20%;
+    }
 }
