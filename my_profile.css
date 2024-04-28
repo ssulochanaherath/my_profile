@@ -2500,10 +2500,6 @@ main{
 
 /*For Laptop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    #Contact {
-        background-color: grey;
-    }
-
     #contactMe {
         font-size: 70px;
     }
@@ -2524,7 +2520,24 @@ main{
 
 /* For Tablet */
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-    #Home {
+    #Contact {
         background-color: grey;
+    }
+
+    #contactMe {
+        font-size: 55px;
+    }
+
+    #left {
+        left: 8%;
+    }
+
+    #right {
+        right:20%;
+    }
+
+    #footerNote {
+        font-size: 20px;
+        left: 20%;
     }
 }
