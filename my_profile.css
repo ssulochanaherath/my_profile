@@ -2574,7 +2574,8 @@ main{
     }
 
     #e-mail {
-
+        height: 20px;
+        width: 20px;
     }
 
     #address {
