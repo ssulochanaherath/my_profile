@@ -2576,10 +2576,6 @@ main{
 
 /* For Mobile Medium */
 @media only screen and (min-width: 321px) and (max-width: 375px) {
-    #Contact {
-        background-color: grey;
-    }
-
     #contactMe {
         font-size: 50px;
     }
