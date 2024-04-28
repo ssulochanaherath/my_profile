@@ -2445,13 +2445,13 @@ main{
 
 #left {
     position: absolute;
-    top: 25%;
+    top: 32%;
     left: 10%;
 }
 
 #right {
     position: absolute;
-    top: 25%;
+    top: 32%;
     right: 50%;
 }
 
