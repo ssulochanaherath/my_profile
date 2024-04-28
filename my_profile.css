@@ -2645,9 +2645,4 @@ main{
     div>div>h3 {
         font-size: 12px;
     }
-
-    div>div>div>img {
-        height: 2px;
-        width: 2px;
-    }
 }
