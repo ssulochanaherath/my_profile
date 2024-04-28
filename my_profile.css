@@ -2616,3 +2616,10 @@ main{
         width: 2px;
     }
 }
+
+/* For Mobile Small */
+/*@media only screen and (max-width: 320px) {*/
+/*    #Home {*/
+/*        background-color: grey;*/
+/*    }*/
+/*}*/
