@@ -2480,5 +2480,11 @@ main{
 
 /*For Laptop Large*/
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #Contact {
+        background-color: grey;
+    }
 
+    #contactMe {
+        font-size: 80px;
+    }
 }
