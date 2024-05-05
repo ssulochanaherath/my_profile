@@ -2193,28 +2193,28 @@ main{
 }
 
 #images>div:first-child{
-    background: url("image-01.jpeg");
+    background: url("assests/images/image-01.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #images>div:nth-child(2){
-    background: url("image-02.jpeg");
+    background: url("assests/images/image-02.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #images>div:nth-child(3){
-    background: url("image-03.jpeg");
+    background: url("assests/images/image-03.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #images>div:nth-child(4){
-    background: url("image-04.jpeg");
+    background: url("assests/images/image-04.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
