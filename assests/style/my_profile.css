@@ -1063,11 +1063,11 @@
 
 #Projects {
     color: #836FFF;
-    font-size: 120px;
+    font-size: 100px;
     transform: rotate(270deg);
 
     position: absolute;
-    top: 18%;
+    top: 14%;
     left: -15%;
     margin: auto;
 }
@@ -1077,7 +1077,7 @@
     font-size: 30px;
 
     position: absolute;
-    top: 5%;
+    top: 0%;
     left: 22%;
     margin: auto;
 }
@@ -1089,17 +1089,17 @@
 
 #cineMax {
     position: absolute;
-    top: 15%;
+    top: 13%;
     left: 22%;
     margin: auto;
 }
 
 #cineMaxName {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 
     position: absolute;
-    top: 37%;
+    top: 43%;
     left: 22%;
     margin: auto;
 }
@@ -1111,17 +1111,17 @@
 
 #chatApplication {
     position: absolute;
-    top: 15%;
+    top: 13%;
     left: 45%;
     margin: auto;
 }
 
 #chatName {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 
     position: absolute;
-    top: 37%;
+    top: 43%;
     left: 45%;
     margin: auto;
 }
@@ -1131,7 +1131,7 @@
     font-size: 30px;
 
     position: absolute;
-    top: 45%;
+    top: 47%;
     left: 22%;
     margin: auto;
 }
@@ -1143,17 +1143,17 @@
 
 #elephantPass {
     position: absolute;
-    top: 55%;
+    top: 63%;
     left: 22%;
     margin: auto;
 }
 
 #projectName {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 
     position: absolute;
-    top: 77%;
+    top: 93%;
     left: 22%;
     margin: auto;
 }
