@@ -2168,12 +2168,12 @@
 }
 
 main{
-    height: 650px;
-    width: 980px;
+    height: 550px;
+    width: 780px;
 
     position: absolute;
-    right: 15%;
-    bottom: 4%;
+    right: 10%;
+    top: 20%;
     margin: auto;
 
     overflow: hidden;
@@ -2185,35 +2185,34 @@ main{
 }
 
 #images>div{
-    height: 650px;
-    width: 980px;
+    height: 550px;
+    width: 780px;
 
     animation: anime 12s infinite;
     animation-direction: alternate;
 }
-
-section>div:first-child{
+#img01{
     background: url("../images/image-01.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section>div:nth-child(2){
+#img02{
     background: url("../images/image-02.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section>div:nth-child(3){
+#img03{
     background: url("../images/image-03.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section>div:nth-child(4){
+#img04{
     background: url("../images/image-04.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -2245,16 +2244,16 @@ section>div:nth-child(4){
     }
 
     main{
-        height: 600px;
-        width: 950px;
+        height: 550px;
+        width: 780px;
 
         right: 12%;
-        bottom: 8%;
+        bottom: 4%;
     }
 
     #images>div{
-        height: 600px;
-        width: 950px;
+        height: 550px;
+        width: 780px;
     }
 }
 
@@ -2274,8 +2273,8 @@ section>div:nth-child(4){
     }
 
     #images>div{
-        height: 600px;
-        width: 950px;
+        height: 450px;
+        width: 750px;
     }
 }
 
