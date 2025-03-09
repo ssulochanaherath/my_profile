@@ -1,409 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="author" content="Sangeeth Sulochana">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sangeeth Sulochana</title>
-    <link rel="stylesheet" href="assests/style/normalize.css">
-
-    <link rel="stylesheet" href="assests/style/my_profile.css">
-
-    <script src="my_profile.js"></script>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sangeeth Sulochana" />
+    <title>Sangeeth Sulochana | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        :root {
+            --primary-color: #1f2937;
+            --accent-color: #3b82f6;
+            --text-color: #f3f4f6;
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+        body {
+            background: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header, section, footer {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        header img {
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            background: var(--card-bg);
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: var(--accent-color);
+        }
+        section h1, section h2, section h3 {
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+        }
+        .about p {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+        .languages img {
+            width: 60px;
+            margin: 0.5rem;
+        }
+        .projects, .assignments, .gallery, .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background: var(--card-bg);
+            padding: 1rem;
+            border-radius: 1rem;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 0.5rem;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: none;
+            border-radius: 0.5rem;
+        }
+        .contact-form button {
+            padding: 0.8rem 2rem;
+            background: var(--accent-color);
+            border: none;
+            color: white;
+            border-radius: 9999px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            background: #2563eb;
+        }
+        footer {
+            text-align: center;
+            background: var(--primary-color);
+            padding: 2rem;
+            font-size: 0.9rem;
+        }
+        #social a img {
+            width: 30px;
+            margin: 0.5rem;
+        }
+    </style>
 </head>
-
 <body>
-<!--    home section-->
-    <section id="Home">
-        <header>
-            <div id="homeImage">
-                <img id="sangeeth" src="assests/images/Sangeeth.jpeg" title="Sangeeth" alt="Sangeeth.jpg">
-            </div>
+<header>
+    <img src="assests/images/Sangeeth.jpeg" alt="Sangeeth Sulochana">
+    <h1>Sangeeth Sulochana</h1>
+    <h2>Full Stack Developer | Software Engineer</h2>
+    <nav>
+        <a href="#About">About</a>
+        <a href="#Project">Projects</a>
+        <a href="#Assignments">Assignments</a>
+        <a href="#Gallery">Gallery</a>
+        <a href="#Contact">Contact</a>
+    </nav>
+</header>
 
-            <div id="fullStack">
-                <h3>Full Stack Developer</h3>
-            </div>
-
-            <div id="softwareEngineer">
-                <h2>Software Engineer</h2>
-            </div>
-
-            <div id="sangeethSulochana">
-                <h1>Sangeeth Sulochana</h1>
-            </div>
-
-        </header>
-
-        <div id="navBar">
-            <nav>
-                <a id="navHome" href="#Home">Home</a>
-                <a id="navAbout" href="#About">About</a>
-                <a id="navProject" href="#Project">Projects</a>
-                <a id="navAssignment" href="#Assignments">Assignments</a>
-                <a id="navGallery" href="#Gallery">Gallery</a>
-                <a id="navContact" href="#Contact">Contacts</a>
-            </nav>
-        </div>
-    </section>
-
-<!--About Section-->
-<section id="About">
-
-    <div id="welcome">
-        <h1>Welcome to My Profile.</h1>
-    </div>
-
-    <div id="note">
-        <h3>It's My Pleasure To Introduce About Myself.</h3>
-    </div>
-
-        <br>
-
-    <div id="paragraph">
-        <p>
-            I am Sangeeth Sulochana. I'm 23 years old. Currently I’m studying as a Software Engineer. My hope to be a Skillful Software Engineer.
-            Passionate about technology and eager to make a difference, I'm dedicated to expanding my skills and knowledge in software development. Let's connect and explore the limitless possibilities of software engineering together!
-        </p>
-    </div>
-
-    <br><br>
-
-    <div id="languages">
+<section id="About" class="about">
+    <h1>Welcome to My Profile</h1>
+    <h3>It's My Pleasure To Introduce About Myself</h3>
+    <p>I am Sangeeth Sulochana. I'm 23 years old. Currently I’m studying as a Software Engineer. My hope is to become a skillful Software Engineer. Passionate about technology and eager to make a difference, I'm dedicated to expanding my skills and knowledge in software development.</p>
+    <div class="languages">
         <h2>Languages</h2>
-    </div>
-
-    <div id="languagesImages">
-        <img id="java" src="assests/images/java.png" title="java" alt="java.png">
-        <img id="html" src="assests/images/html.png" title="html" alt="html.png">
-        <img id="css" src="assests/images/css.png" title="css" alt="css.png">
-        <img id="javaScript" src="assests/images/JavaScriptl.png" title="javaScript" alt="JavaScript.png">
-    </div>
-
-    <br><br>
-
-    <div>
-        <img id="sulochana" src="assests/images/Sulochana.jpeg" title="Sulochana" alt="Sulochana.jpeg">
-    </div>
-
-    <div id="aboutMe">
-        <h3>Student | Full-Stack Developer</h3>
+        <img src="assests/images/java.png" alt="Java">
+        <img src="assests/images/html.png" alt="HTML">
+        <img src="assests/images/css.png" alt="CSS">
+        <img src="assests/images/JavaScriptl.png" alt="JavaScript">
     </div>
 </section>
 
-
-<!--Project Section-->
 <section id="Project">
-
-    <div id="Projects">
-        <h1>Projects</h1>
+    <h1>Projects</h1>
+    <div class="projects">
+        <div class="card">
+            <a href="https://github.com/ssulochanaherath/cine-max">
+                <img src="assests/images/Cine-Max.jpeg" alt="Cine-Max">
+                <h3>Film-Hall Management System</h3>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://github.com/ssulochanaherath/ChatApplication.git">
+                <img src="assests/images/whirlWind.jpeg" alt="Chat Application">
+                <h3>Chat Application</h3>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://github.com/ssulochanaherath/cine-max">
+                <img src="assests/images/Elephant-Pass.jpeg" alt="Elephant Pass">
+                <h3>Elephant-Pass Project</h3>
+            </a>
+        </div>
     </div>
-
-    <div id="myProjects">
-<!--        My Projects-->
-        <h3>My Projects</h3>
-    </div>
-
-    <div id="cineMax">
-        <a href="https://github.com/ssulochanaherath/cine-max">
-            <img id="cine" src="assests/images/Cine-Max.jpeg" title="Cine-Max" alt="Cine-Max.jpeg">
-        </a>
-    </div>
-
-    <div id="cineMaxName">
-        <h3>Film-Hall Management System</h3>
-    </div>
-
-    <div id="chatApplication">
-
-        <a href="https://github.com/ssulochanaherath/ChatApplication.git">
-            <img id="chat" src="assests/images/whirlWind.jpeg" title="whirlWind" alt="whirlWind.jpeg">
-        </a>
-
-    </div>
-
-    <div id="chatName">
-
-        <h3>Chat Application</h3>
-
-    </div>
-
-    <br><br>
-
-<!--    Team Projects-->
-    <div id="teamProjects">
-
-        <h3>Team Projects</h3>
-
-    </div>
-
-    <div id="elephantPass">
-
-        <a href="https://github.com/ssulochanaherath/cine-max">
-            <img id="elephant" src="assests/images/Elephant-Pass.jpeg" title="Elephant-Pass" alt="Elephant-Pass.jpeg">
-        </a>
-
-    </div>
-
-    <div id="projectName">
-
-        <h3>Elephant-Pass Project</h3>
-
-    </div>
-
 </section>
 
-<!--Assignment Section-->
 <section id="Assignments">
-
-    <div id="Assignment">
-        <h1>Assignments</h1>
+    <h1>Assignments</h1>
+    <div class="assignments">
+        <!-- Repeat similar card structure for each assignment -->
+        <div class="card">
+            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
+                <img src="assests/images/Assignment-01.jpeg" alt="Assignment 01">
+                <h4>Assignment 01</h4>
+            </a>
+        </div>
+        <!-- Add other assignment cards similarly -->
     </div>
-
-    <div id="internet">
-
-        <h3>Internet Technologies</h3>
-    </div>
-
-    <section id="assi">
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage1" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 01</p>
-        </div>
-
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage2" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 02</p>
-        </div>
-
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage3" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 03</p>
-        </div>
-
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage4" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 04</p>
-        </div>
-
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage5" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 05</p>
-        </div>
-
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage6" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 06</p>
-        </div>
-
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage7" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 07</p>
-        </div>
-
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage8" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 08</p>
-        </div>
-
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage9" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 09</p>
-        </div>
-
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage10" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 10</p>
-        </div>
-
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage11" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 11</p>
-        </div>
-
-        <div>
-            <a href="https://drive.google.com/file/d/171vg_pDgEAfrqIeHJw5_LUzEQHzv4_0j/view?usp=drive_link">
-                <img id="assiImage12" src="assests/images/Assignment-01.jpeg" title="Assignment-01" alt="Assignment-01.jpeg">
-            </a>
-
-            <p>Assignment 12</p>
-        </div>
-
-
-
-    </section>
-
 </section>
 
-<!--Gallery Section-->
 <section id="Gallery">
-
-    <div>
-        <h1 id="galleryTitle">Gallery</h1>
+    <h1>Gallery</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="assests/images/sangeeth.jpeg" alt="Gallery Image">
+        </div>
+        <!-- Add more images similarly -->
     </div>
-
-    <div>
-        <img id="gallerySangeeth" src="assests/images/sangeeth.jpeg" title="sangeeth" alt="sangeeth.jpeg">
-    </div>
-
-    <main>
-        <section id="images">
-
-            <div id="img01"></div>
-            <div id="img02"></div>
-            <div id="img03"></div>
-            <div id="img04"></div>
-
-        </section>
-    </main>
-
 </section>
 
-<!--Contact Section-->
-    <section id="Contact">
-
-        <div>
-            <h1 id="contactMe">Contact Me</h1>
-            <br>
-        </div>
-
-
-
-        <!--right side-->
-        <div id="right">
-
-            <form>
-                <div>
-                    <input type="text" id="name" placeholder="Name">
-                </div>
-
-                <br>
-
-                <div>
-                    <input type="email" id="email" placeholder="Email">
-                </div>
-
-                <br>
-
-                <div>
-                    <textarea placeholder="Message" id="message" cols="50" rows="10"></textarea>
-                </div>
-
-                <br>
-
-                <div>
-                    <button type="submit">Submit</button>
-                </div>
-
-            </form>
-
-        </div>
-
-        <!--left side-->
-        <div id="left">
-            <div>
-                <img id="user" src="assests/images/User.png"title="user"alt="user-icon"width="40"height="40">
-                <h3>Sangeeth Sulochana</h3>
-            </div>
-
-            <br>
-
-            <div>
-                <img id="tele" src="assests/images/Telephone.png"title="tel"alt="tel-icon"width="40"height="40">
-                <h3>+94740720788</h3>
-            </div>
-
-            <br>
-
-            <div>
-                <img id="e-mail" src="assests/images/E-Mail.png"title="email"alt="email-icon"width="40"height="40">
-                <h3>ssulochanaherath@gmail.com</h3>
-            </div>
-
-            <br>
-
-            <div>
-                <img id="address" src="assests/images/Location.png"title="location"alt="location-icon"width="40"height="40">
-                <h3>50/1 A, Meedagoda, Poramadulla</h3>
-            </div>
-
-        </div>
-
-        <br>
-
-        <div>
-
+<section id="Contact">
+    <h1>Contact Me</h1>
+    <div class="contact-info">
+        <div class="card">
+            <h3>Sangeeth Sulochana</h3>
+            <p><strong>Phone:</strong> +94740720788</p>
+            <p><strong>Email:</strong> ssulochanaherath@gmail.com</p>
+            <p><strong>Address:</strong> 50/1 A, Meedagoda, Poramadulla</p>
             <div id="social">
-
-                <div>
-                    <a href="https://web.facebook.com/sangeeth.sulochana.5/">
-                        <img id="facebook" src="assests/images/Facebook.png"title="facebook"alt="facebook-icon">
-                    </a>
-                </div>
-
-                <div>
-                    <a href="https://www.linkedin.com/in/sangeeth-sulochana-a70903286/">
-                        <img id="linkedin" src="assests/images/Linkedin.png"title="linkedin"alt="linkedin-icon">
-                    </a>
-                </div>
-
-                <div>
-                    <a href="https://whatsapp.com/channel/0029VaTDBS58fewqWzVkaB2n">
-                        <img id="whatsapp" src="assests/images/Whatsapp.png"title="whatsapp"alt="whatsapp-icon">
-                    </a>
-                </div>
-
-                <div>
-                    <a href="https://medium.com/@ssulochanaherath">
-                        <img id="medium" src="assests/images/Medium.png"title="medium"alt="medium-icon">
-                    </a>
-                </div>
-
+                <a href="https://web.facebook.com/sangeeth.sulochana.5/"><img src="assests/images/Facebook.png" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/in/sangeeth-sulochana-a70903286/"><img src="assests/images/Linkedin.png" alt="LinkedIn"></a>
+                <a href="https://whatsapp.com/channel/0029VaTDBS58fewqWzVkaB2n"><img src="assests/images/Whatsapp.png" alt="WhatsApp"></a>
+                <a href="https://medium.com/@ssulochanaherath"><img src="assests/images/Medium.png" alt="Medium"></a>
             </div>
         </div>
+        <div class="card contact-form">
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea rows="6" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
 
-        <br>
-
-    </section>
-
-    <!----footer---->
-    <footer id="footer">
-        <h3 id="footerNote">Copyright © 2024 Sangeeth Sulochana . All right reserved.</h3>
-    </footer>
-
+<footer>
+    <p>© 2024 Sangeeth Sulochana. All rights reserved.</p>
+</footer>
 </body>
 </html>
